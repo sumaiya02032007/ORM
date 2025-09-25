@@ -37,7 +37,7 @@ class Car(models.Model):
     email=models.EmailField()
     dop=models.DateField()
     car_Type=models.CharField(max_length=10)
-class CarsAdmin(admin.ModelAdmin):
+class CarAdmin(admin.ModelAdmin):
     list_display=['car_id','car_models','email','dop','car_Type'] 
 ```
 

@@ -23,7 +23,7 @@ Execute Django admin and create details for 10 books
 admin.py
 
 from django.contrib import admin
-from .model import Cars,CarsAdmin
+from.model import Cars,CarsAdmin
 admin.site.register(Cars,CarsAdmin)
 
 models.py
